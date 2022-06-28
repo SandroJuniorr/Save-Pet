@@ -1,0 +1,41 @@
+.container{
+    height: 5rem;
+    border-bottom:  0.5px solid rgb(82, 78, 78);
+    padding: 0rem 1rem;
+}
+.content{
+    max-width: 1120px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+
+
+    
+    nav{
+        align-self: flex-end;
+        margin-left: 20rem;
+        display: flex;
+
+        font-size: 1.25rem;
+        font-weight: 500;
+
+        a{
+            color:#e5e5e5;
+            margin-right: 1rem;
+            padding: 0.5rem;
+
+            &.active{
+                color: white;
+                border-bottom: solid 3px #df0707;
+            }
+            &:hover{
+                color: white;
+            }
+            
+
+           
+        }
+        
+    }
+    
+}
